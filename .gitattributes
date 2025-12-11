@@ -18,3 +18,4 @@ Packages filter=lfs diff=lfs merge=lfs -text
 Assets filter=lfs diff=lfs merge=lfs -text
 GDS.Common.csproj filter=lfs diff=lfs merge=lfs -text
 Library filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/* filter=lfs diff=lfs merge=lfs -text

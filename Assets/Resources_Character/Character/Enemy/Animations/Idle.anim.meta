@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 90051fba34a53534d81c42c60fa3f963
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313024
+  packageName: Scary_Evil
+  packageVersion: 1.0.0
+  assetPath: Assets/Scary_Evil/Animations/Idle.anim
+  uploadId: 738040
