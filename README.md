@@ -29,6 +29,7 @@
 <p align="center">
    <img src="GitImages/LoginScreen.gif" width="900" />
 </p>
+
 - Firebase Authentication을 기반으로 회원가입 / 로그인 / 로그아웃 기능을 구현했습니다.
 - Email & Password 방식의 인증 시스템을 사용했으며, FirebaseAuth의 비동기 API(CreateUserWithEmailAndPasswordAsync, SignInWithEmailAndPasswordAsync)를 활용했습니다.
 - Firebase에서 제공하는 상태 변경 이벤트(StateChanged)를 통해 로그인 상태가 바뀌면 UI에 자동으로 반영되도록 구조화했습니다.
