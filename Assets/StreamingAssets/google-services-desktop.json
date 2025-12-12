@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827790346578",
+    "project_id": "undervein-ef6fb",
+    "storage_bucket": "undervein-ef6fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827790346578:android:1ba72ec9ac0bb006f9928b",
+        "android_client_info": {
+          "package_name": "com.underveindev.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWIBJcd7XDEVCvRuzWnz8dsyYuqLO81AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
