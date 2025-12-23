@@ -7,9 +7,10 @@ using System.Collections.Generic;
 public enum QuestType
 {
     DestroyEnemy,
-    AcquireTime,
+    AcquireItem,
 }
 
+[Serializable]
 public class Quest
 {
     public int id;

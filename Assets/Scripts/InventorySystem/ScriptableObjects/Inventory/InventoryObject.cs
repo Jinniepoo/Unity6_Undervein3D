@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using Undervein.QuestSystem;
 
 namespace Undervein.InventorySystem.Inventory
 {
@@ -70,6 +71,8 @@ namespace Undervein.InventorySystem.Inventory
             {
                 slot.AddAmount(amount);
             }
+
+            QuestManager.Instance.ProcessQuest(QuestType.AcquireItem, 1);
 
             return true;
         }

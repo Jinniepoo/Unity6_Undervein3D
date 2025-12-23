@@ -53,15 +53,15 @@ namespace Undervein.QuestSystem
         public void Interact(GameObject other)
         {
             float calcDistance = Vector3.Distance(other.transform.position, transform.position);
-            //if (calcDistance > Distance)
-            //{
-            //    return;
-            //}
+            if (calcDistance > Distance)
+            {
+                return;
+            }
 
-            //if (isStartQuestDialogue)
-            //{
-            //    return;
-            //}
+            if (isStartQuestDialogue)
+            {
+                return;
+            }
 
             interactGO = other;
             isStartQuestDialogue = true;
@@ -77,7 +77,6 @@ namespace Undervein.QuestSystem
             }
             else if (questObject.status == QuestStatus.Completed)
             {
-                // Reward quest
                 DialogueManager.Instance.StartDialogue(completedDialogue);
                 questObject.status = QuestStatus.Rewarded;
                 questEffectGO.SetActive(false);

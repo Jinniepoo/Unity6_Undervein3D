@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Undervein.QuestSystem;
 
 namespace Undervein.Characters
 {
@@ -164,7 +165,7 @@ namespace Undervein.Characters
                 }
 
                 stateMachine.ChangeState<DeadState>();
-                //QuestManager.Instance.ProcessQuest(QuestType.DestroyEnemy, 0);
+                QuestManager.Instance.ProcessQuest(QuestType.DestroyEnemy, 0);
             }
         }
 
