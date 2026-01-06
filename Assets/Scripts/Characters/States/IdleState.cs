@@ -46,7 +46,7 @@ namespace Undervein.AI
             {
                 if (context.IsAvailableAttack)
                 {
-                    // Attack CoolTime확인 후 A[ttackState]로 전환
+                    // Attack CoolTime확인 후 [AttackState]로 전환
                     stateMachine.ChangeState<AttackState>();
                 }
                 else
